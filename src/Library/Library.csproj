@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\PII_TwitterApi\src\Library\Library.csproj"/>
-    <ProjectReference Include="..\..\..\PII_CognitiveAPI\src\Library\Library.csproj"/>
+    <ProjectReference Include="C:\Users\mateo\proyecto1\PipesFiltres\Twitter\TwitterApi\src\Library\Library.csproj"/>
+    <ProjectReference Include="C:\Users\mateo\proyecto1\PipesFiltres\CognitiveAPI\PII_CognitiveAPI\src\Library\Library.csproj"/>
   </ItemGroup>
 </Project>
