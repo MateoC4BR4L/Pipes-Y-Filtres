@@ -5,7 +5,7 @@ using CompAndDel.Filters;
 
 namespace CompAndDel
 {
-    public class Ejercicio2
+    public class Ejercicio2 // Ejercicio 2: Guardar las secuencias de filtros
     {
         List<IPicture> secuencias = new();
         IPicture img{get; set;}
