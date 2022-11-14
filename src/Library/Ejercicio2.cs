@@ -33,7 +33,7 @@ namespace CompAndDel
 
             PipeSerial pipeserial = new PipeSerial(filtroGris, pipeSerial2);
             imgFiltrada = pipeserial.Send(this.img); // Se aplican ambos filtros a la imagen
-            secuencias.Add(imgFiltrada); // Se guarda esta ultima secuencia con ambos filtros aplicados.
+            secuencias.Add(imgFiltrada); // Se guarda esta ultima secuencia con ambos filtros aplicados
         }
 
         public void VerSecuencias() // Se habilitan para ver las imagenes filtradas por secuencia
